@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+body {
+    background-image: url(https://img1.goodfon.com/original/1920x1200/d/3a/tekstury-siniy-textures.jpg);
+}
+
+#reset-game {
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: end;
+}
+
+#new-game {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    background: linear-gradient(rgb(255, 162, 0), rgb(255, 115, 0));
+    border: none;
+}
+
+#new-game:hover {
+    opacity: 0.80;
+}
+
+#new-game:active {
+    opacity: 0.60;
+}
+
+#computer-profile {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#bot {
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%;
+    
+}
+
+#profile-bot {
+    width: 70px;
+    height: 70px; 
+    border-radius: 50%;  
+}
+
+
+
+#rock-paper-scissors {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    align-items: end;
+}
+
+#style {
+    cursor: pointer;
+    width: 70px;
+    border-radius: 50%;
+    
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+#bot-scores {
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+}
+
+
+#user-scores {
+    font-size: 30px;
+    color: white;
+    font-family: arial;
+    margin-bottom: 30px;
+    margin-left: 5px;
+}
+
+
+#bot-text {
+    display: flex;
+    justify-content: center;
+}
+
+
+#bot-win-lose-text {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+
+
+#user-text {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+
+#user-win-lose-text {
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+
+#bot-wins {
+    display: flex;
+    justify-content: center;
+}
+
+#bot-win{
+    font-family: arial;
+    font-size: 25px;
+    color: white;
+}
+
+
+#player-win {
+height: 300px;
+display: flex;
+align-items: end;
+justify-content: center;
+}
+
+#you-win {
+    font-size: 25px;
+    font-family: arial;
+    color: white;
+}
+
+#rock-logo {
+    width: 60px;
+    cursor: pointer;
+    border: 50%;
+}
